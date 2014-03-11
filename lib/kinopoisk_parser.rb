@@ -7,7 +7,7 @@ require 'kinopoisk/person'
 module Kinopoisk
   SEARCH_URL = "http://www.kinopoisk.ru/index.php?kp_query="
   NotFound   = Class.new StandardError
-  @@proxy = nil
+  @@proxy    = nil
 
   def self.proxy
     @@proxy
